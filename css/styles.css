@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /* 100% = 16px | jadi tinggal dibagi dengan 16 */
+  color: #c8d5b9;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+}
+
+.programmer {
+  color: #c8d5b9;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  bottom: 50px;
+}
+
+h2 {
+  margin-top: 70px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #faf3dd;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 100;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  border-color: grey;
+  width: 5%;
+}
+
+/*https://colorhunt.co/palette/202267 > Color*/
+.kotak-atas {
+  background-color: #68b0ab;
+  position: relative;
+  padding-top: 100px;
+}
+
+.kotak-tengah {
+  background-color: #8fc0a9;
+  padding-bottom: 50px;
+}
+
+.kotak-bawah {
+  background-color: #c8d5b9;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 200px;
+}
+
+.wangi-img {
+  border-radius: 50%;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.skill-img {
+  height: 200px;
+}
+
+.gif1 {
+  height: 100px;
+  left: 450px;
+  position: fixed;
+  position: relative;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img1 {
+  float: left;
+  width: 25%;
+  /*margin-right: 100px;*/
+}
+
+.skill-img2 {
+  float: right;
+  width: 25%;
+}
+
+.myskill {
+  position: relative;
+  top: 70px;
+}
+
+.tombol {
+  background: #A4B494;
+  background-image: -webkit-linear-gradient(top, #A4B494, #519872);
+  background-image: -moz-linear-gradient(top, #A4B494, #519872);
+  background-image: -ms-linear-gradient(top, #A4B494, #519872);
+  background-image: -o-linear-gradient(top, #A4B494, #519872);
+  background-image: linear-gradient(to bottom, #A4B494, #519872);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 13px;
+  box-shadow: 1px 1px 20px 0px #519872;
+  -webkit-box-shadow: 1px 1px 20px 0px #519872;
+  -moz-box-shadow: 1px 1px 20px 0px #519872;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #519872 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  top: 13px;
+}
+
+.tombol:hover {
+  border: solid #519872 1px;
+  background: #519872;
+  background-image: -webkit-linear-gradient(top, #519872, #519872);
+  background-image: -moz-linear-gradient(top, #519872, #519872);
+  background-image: -ms-linear-gradient(top, #519872, #519872);
+  background-image: -o-linear-gradient(top, #519872, #519872);
+  background-image: linear-gradient(to bottom, #519872, #519872);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footerkiri {
+  margin-right: 200px;
+  position: relative;
+  top: 20px;
+}
+
+.footertengah {
+  position: relative;
+  top: 20px;
+}
+
+.footerkanan {
+  position: relative;
+  margin-left: 200px;
+  top: 20px;
+}
+
+.contact-me{
+  padding-top: 20px;
+}
+
+.plast{
+  position: relative;
+top: 20px;
+
+}
+
+.instagram{
+  height: 50px;
+}
+
+.twitter{
+  height: 50px;
+}
+
+.wa{
+  height: 50px;
+}
